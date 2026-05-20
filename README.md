@@ -7,180 +7,180 @@
 </div>
 
 <p align="center">
-在信息爆炸的今天，Research 的能力对于每个人都越来越重要。无论是为了学术研究，还是为了紧跟技术前沿，高效获取论文信息都是一项核心技能。本文整理了一套从“找论文”到“读论文”再到“审论文”的宝藏工具流，建议收藏备用！
+In today's information age, research skills are becoming increasingly essential for everyone. Whether for academic purposes or staying on the cutting edge of technology, efficiently gathering paper information is a core competency. This guide compiles a curated toolkit spanning from "finding papers" to "reading papers" to "reviewing papers" — bookmark it for future reference!
 </p>
 
-* **Github链接：[https://github.com/choucisan/getpaperinfo](https://github.com/choucisan/getpaperinfo)**
-* **博客链接：[https://choucisan.xyz](https://choucisan.xyz/)**
-* 关注博客，以后会不定期更新！
+* **GitHub: [https://github.com/choucisan/getpaperinfo](https://github.com/choucisan/getpaperinfo)**
+* **Blog: [https://choucisan.xyz](https://choucisan.xyz/)**
+* Follow the blog for periodic updates!
 
 
-## 🎯 我们要找哪些论文？
+## 🎯 What Types of Papers Should We Look For?
 
-在打开搜索引擎之前，我们需要明确目标。不同的研究阶段，我们需要关注不同类型的论文：
+Before opening a search engine, we need to define our goals. Different research stages call for different types of papers:
 
-### 综述 (Survey / Review)
-* **用途：** 入门新领域，了解全貌。
-综述性论文可以帮助我们快速理清一个领域的发展脉络、技术流派以及当前的研究热点。
-* **技巧**：重点关注综述中的 Reference（参考文献），这是你构建领域知识树的“树根”。
+### Survey / Review
+* **Purpose:** Get started in a new field and gain a broad overview.
+Survey papers help us quickly understand the development trajectory, major approaches, and current research hotspots of a field.
+* **Tip:** Pay close attention to the References section — this is the "root" for building your knowledge tree of the field.
 
-### 相关工作 (Related Work)
-* **用途：** 针对具体问题，查漏补缺。
-当我们 Narrow down 到某个具体问题时，高质量论文的 `Related Work` 章节是作者对前人工作的精华总结。
-* **技巧**：通过这些总结，你可以知道哪些问题已被解决（避免重复造轮子），哪些问题仍是挑战（你的创新点）。
+### Related Work
+* **Purpose:** Target specific problems and fill in the gaps.
+When we narrow down to a specific problem, the Related Work section of a high-quality paper is the author's curated summary of prior work.
+* **Tip:** Through these summaries, you can learn which problems have already been solved (avoid reinventing the wheel) and which remain open challenges (your opportunity for innovation).
 
-### 社交媒体与前沿 (Social Media)
-**用途：** 保持敏锐，获取灵感。
-关注活跃学者的 Twitter (X)、LinkedIn 或学术主页。他们往往会在正式发表前分享预印本或 demo，让你比别人更快一步看到未来。
+### Social Media
+* **Purpose:** Stay sharp and gather inspiration.
+Follow active researchers on Twitter (X), LinkedIn, or their academic homepages. They often share preprints or demos before formal publication, giving you an early look at what's coming next.
 
 ---
 
-## 🔍 我们要怎么找到论文？
+## 🔍 How Do We Find Papers?
 
-目标明确后，我们需要利用强大的工具来精准定位，高效获取需要的论文。
+With clear goals, we need powerful tools to locate and efficiently obtain the papers we need.
 
 ### **[Google Scholar](https://scholar.google.com/)**
 
-> *学术界的 Google，最常用的入口。*
+> *The Google of academia — the most common starting point.*
 
-* **核心功能**：知道作者或标题时最快的查找方式。
-* **必杀技**：善用 **"Cited by" (被引用次数)** 功能，引用次数越多的论文通常越经典；利用引用链可以顺藤摸瓜找到最新的相关研究。
+* **Key Feature:** The fastest way to look up a paper when you know the author or title.
+* **Pro Tip:** Make good use of the **"Cited by"** feature — papers with more citations are typically more influential. Follow citation chains to discover the latest related research.
 
-![Google Scholar 界面示例](/images/getpaperinfo/GoogleScholar.png)
+![Google Scholar Example](/images/getpaperinfo/GoogleScholar.png)
 
 ### **[ArXiv](https://arxiv.org/)**
 
-> *天下武功，唯快不破。*
+> *Speed is king.*
 
-* **核心功能**：公开的预印本（Pre-print）库，收录了大量尚未正式发表在期刊上的最新成果。
-* **适用场景**：CS（计算机科学）和 AI 领域必看，这里代表了全球最新的研究速度。
+* **Key Feature:** An open preprint repository hosting a vast collection of the latest research results that have not yet been formally published in journals.
+* **Best For:** Essential for CS and AI — this is where you'll find the latest research at global speed.
 
-![arXiv 界面示例](/images/getpaperinfo/arXiv.png)
+![arXiv Example](/images/getpaperinfo/arXiv.png)
 
-### **[IEEE Xplore](https://ieeexplore.ieee.org/)** 
-* **核心功能**：美国的电气与电子工程师学会（IEEE）出版的期刊和会议论文库，收录了大量的工程技术论文。
-* **适用场景**：当你需要查找经过严格同行评审（Peer-reviewed）的正式会议或期刊论文时，请移步这里。
+### **[IEEE Xplore](https://ieeexplore.ieee.org/)**
+* **Key Feature:** A repository of journals and conference papers published by the Institute of Electrical and Electronics Engineers (IEEE), covering a large body of engineering and technology research.
+* **Best For:** When you need formally peer-reviewed conference or journal papers in electrical engineering, electronics, and related fields.
 
-![IEEE Xplore 界面示例](/images/getpaperinfo/ieee.png)
+![IEEE Xplore Example](/images/getpaperinfo/ieee.png)
 
 ### **[ACM Digital Library](https://dl.acm.org/)**
-* **定位**：美国计算机学会（ACM）出版的期刊和会议论文库，收录了大量的计算机科学论文。
-* **优势**：当你需要查找经过严格同行评审（Peer-reviewed）的正式会议或期刊论文时，请移步这里。
+* **Key Feature:** A repository of journals and conference papers published by the Association for Computing Machinery (ACM), covering a large body of computer science research.
+* **Best For:** When you need formally peer-reviewed conference or journal papers in computer science.
 
-![ACM Digital Library 界面示例](/images/getpaperinfo/acm.png)
+![ACM Digital Library Example](/images/getpaperinfo/acm.png)
 
-### **[Paper Copilot](https://www.papercopilot.com/)** 
-* **定位**：新一代 AI 驱动的学术搜索引擎。
-* **优势**：相比传统搜索，这里爬取了各个期刊和会议的论文收录情况，并提供了论文的摘要、关键词、作者信息等详细信息，方便你快速筛选和获取论文。
+### **[Paper Copilot](https://www.papercopilot.com/)**
+* **Key Feature:** A next-generation AI-powered academic search engine.
+* **Advantage:** Unlike traditional search, it crawls publication acceptance status across journals and conferences, and provides detailed information including abstracts, keywords, and author details to help you quickly filter and obtain papers.
 
-![Paper Copilot 界面示例](/images/getpaperinfo/papercopilot.png)
+![Paper Copilot Example](/images/getpaperinfo/papercopilot.png)
 
 ### **[Cool Paper](https://papers.cool/)**
-* **定位**：新一代 AI 驱动的学术搜索引擎。
-* **优势**：和 Paper Copilot 类似，这里也收集了各个期刊和会议的论文收录情况，并提供了论文的摘要、关键词、作者信息等详细信息，方便你快速筛选和获取论文。
+* **Key Feature:** A next-generation AI-powered academic search engine.
+* **Advantage:** Similar to Paper Copilot, it aggregates publication acceptance information from various journals and conferences, and provides abstracts, keywords, author details, and more for efficient paper discovery.
 
-![Cool Paper 界面示例](/images/getpaperinfo/cool.png)
+![Cool Paper Example](/images/getpaperinfo/cool.png)
 
 
 ---
 
-## 📰 如何日常获取论文信息？
+## 📰 How to Stay Updated on New Papers?
 
-除了主动搜索，构建一个自动化的“信息流”同样重要，这里有一些工具可以帮助你实现这一目标。
+Beyond active searching, building an automated "information feed" is equally important. Here are some tools to help you achieve that.
 
-### **[ArXiv Daily (中文)](https://arxivdaily.com/)**
-* **定位**：新一代 AI 驱动的学术搜索引擎。
-* **优势**：不仅提供了每日更新的论文列表，还支持按领域分类，方便你快速找到感兴趣的研究方向。
+### **[ArXiv Daily (Chinese)](https://arxivdaily.com/)**
+* **Key Feature:** A next-generation AI-powered academic search engine.
+* **Advantage:** Provides daily updated paper lists with field-based categorization, making it easy to find research directions of interest.
 
-![ArXiv Daily 界面示例](/images/getpaperinfo/arxivdaily.png)
+![ArXiv Daily Example](/images/getpaperinfo/arxivdaily.png)
 
 ### **[Hugging Face Papers](https://huggingface.co/papers/month/2025-11)**
-* **定位**：Hugging Face 社区维护的论文列表。
-* **优势**：这里不仅有论文，往往还关联了代码仓库（Repo）和模型权重，所见即所得。
+* **Key Feature:** A paper listing maintained by the Hugging Face community.
+* **Advantage:** Often links papers to code repositories and model weights — what you see is what you get.
 
-![Hugging Face Papers 界面示例](/images/getpaperinfo/huggingface.png)
+![Hugging Face Papers Example](/images/getpaperinfo/huggingface.png)
 
-### **[BAAI (智源社区)](https://hub.baai.ac.cn/papers)**
-* **定位**：国内高质量的 AI 社区，经常有专家解读和研讨会资讯。
-* **优势**：这里不仅提供了论文列表，还经常有专家对论文进行解读，帮助你更好地理解论文内容。
+### **[BAAI (Beijing Academy of Artificial Intelligence)](https://hub.baai.ac.cn/papers)**
+* **Key Feature:** A high-quality Chinese AI community with expert analyses and seminar announcements.
+* **Advantage:** Provides paper listings along with expert interpretations to help you better understand the content.
 
-![BAAI 界面示例](/images/getpaperinfo/baai.png)
-
-
-### **[HyperAI (超神经)](https://hyper.ai/cn/papers)**
-* **定位**：国内高质量的 AI 社区，经常有专家解读和研讨会资讯。
-* **优势**：提供丰富的数据集和论文资讯，对于算力资源和公开数据集的整理非常到位。
-
-![HyperAI 界面示例](/images/getpaperinfo/hyper.png)
+![BAAI Example](/images/getpaperinfo/baai.png)
 
 
-### **[Daily Paper (个人站)](https://paper.dou.ac/d/2025-11-14)**
-* **定位**：一些优质的个人维护的arXiv论文列表
-* **优势**：个人维护的arXiv论文列表，容易爬取，可以定制化筛选
+### **[HyperAI](https://hyper.ai/cn/papers)**
+* **Key Feature:** A high-quality Chinese AI community with expert analyses and seminar announcements.
+* **Advantage:** Offers rich datasets and paper news, with excellent curation of computing resources and public datasets.
 
-![Daily Paper 界面示例](/images/getpaperinfo/daily.png)
+![HyperAI Example](/images/getpaperinfo/hyper.png)
+
+
+### **[Daily Paper (Personal Site)](https://paper.dou.ac/d/2025-11-14)**
+* **Key Feature:** Curated arXiv paper lists maintained by individuals.
+* **Advantage:** Personally maintained arXiv paper lists that are easy to scrape and can be customized for filtering.
+
+![Daily Paper Example](/images/getpaperinfo/daily.png)
 
 
 ---
 
-## 📖 AI 时代的论文阅读工具
+## 📖 AI-Powered Paper Reading Tools
 
-下载了 PDF 只是第一步，如何读得快、读得懂？是更重要的问题。这里推荐一些 AI 驱动的论文阅读工具，让你的阅读体验更上一层楼。
+Downloading the PDF is just the first step — how to read faster and understand better is the real question. Here are some AI-driven paper reading tools to take your reading experience to the next level.
 
 ### **[DeepScholar](https://deep-scholar.vercel.app/)**
 
-> *划词翻译与解释，深度阅读辅助。*
+> *Inline translation and explanation for deep reading assistance.*
 
-* **核心功能**：划词翻译与解释，深度阅读辅助。
-* **适用场景**：当你需要快速理解论文中的专业术语和概念时，DeepScholar 是你的不二之选。
+* **Key Feature:** Select text for instant translation and explanation, with deep reading assistance.
+* **Best For:** When you need to quickly understand technical terminology and concepts in a paper, DeepScholar is the go-to tool.
 
-![DeepScholar 界面示例](/images/getpaperinfo/deep.png)
+![DeepScholar Example](/images/getpaperinfo/deep.png)
 
 ### **[AlphaXiv](https://www.alphaxiv.org/)**
 
-> *社交化阅读，让阅读体验更流畅。*
+> *Social reading for a smoother experience.*
 
-* **核心功能**：社交化阅读，让阅读体验更流畅。
-* **适用场景**：当你需要与其他学者进行互动，分享你的阅读心得时，AlphaXiv 是你的最佳选择。
+* **Key Feature:** Social reading that makes the experience more interactive.
+* **Best For:** When you want to engage with other researchers and share your reading insights, AlphaXiv is the ideal choice.
 
-![AlphaXiv 界面示例](/images/getpaperinfo/alpha.png)
+![AlphaXiv Example](/images/getpaperinfo/alpha.png)
 
 ### **[Ribbit Ribbit](https://ribbitribbit.co/)**
 
-> *专注于让阅读体验更流畅的工具。*
+> *A tool focused on making reading smoother.*
 
-* **核心功能**：专注于让阅读体验更流畅的工具。
-* **适用场景**：当你需要快速浏览论文，或者需要专注于论文中的某个部分时，Ribbit Ribbit 是你的不二之选。
+* **Key Feature:** Focused on streamlining the paper reading experience.
+* **Best For:** When you need to quickly skim a paper or focus on a specific section, Ribbit Ribbit is the tool for you.
 
-![Ribbit Ribbit 界面示例](/images/getpaperinfo/guagua.png)
+![Ribbit Ribbit Example](/images/getpaperinfo/guagua.png)
 
 ### **[ChatPaper](https://chatpaper.com/)**
 
-> *全文总结，多轮问答。*
+> *Full-text summarization with multi-turn Q&A.*
 
-* **核心功能**：全文总结，多轮问答。
-* **适用场景**：当你需要快速了解论文的全貌，或者需要与论文进行多轮问答时，ChatPaper 是你的不二之选。
+* **Key Feature:** Full-text summarization and multi-turn question answering.
+* **Best For:** When you need a quick overview of a paper or want to engage in a multi-turn dialogue about its content, ChatPaper is the tool for you.
 
-![ChatPaper 界面示例](/images/getpaperinfo/chat.png)
+![ChatPaper Example](/images/getpaperinfo/chat.png)
 
 ---
 
-## ✍️ 投稿前的 AI 预审
+## ✍️ AI Pre-Review Before Submission
 
-在将你的心血投递出去之前，不妨先让“AI 审稿人”把把关。它们能模拟审稿人的视角，挑出逻辑漏洞或语言问题。
+Before submitting your hard work, let an "AI reviewer" take a look first. These tools can simulate a reviewer's perspective, catching logical gaps or language issues.
 
 ### **[Stanford Agentic Reviewer](https://paperreview.ai/)**
-斯坦福团队推出的智能审稿代理，能够生成非常详尽的评审报告，帮助你提前预知可能的 Rejection 理由。
+An intelligent review agent developed by the Stanford team that generates detailed review reports, helping you anticipate potential rejection reasons in advance.
 
-![Stanford Agentic Reviewer 界面示例](/images/getpaperinfo/agent.png)
+![Stanford Agentic Reviewer Example](/images/getpaperinfo/agent.png)
 
 ### **[Reviewer3](https://reviewer3.com/)**
-专注于提升论文质量的辅助工具，不仅指出问题，有时还能给出具体的修改建议。
+A tool focused on improving paper quality — it not only identifies problems but sometimes also offers concrete revision suggestions.
 
-![Reviewer3 界面示例](/images/getpaperinfo/review3.png)
+![Reviewer3 Example](/images/getpaperinfo/review3.png)
 
 ---
 
 
-**结语：**
-工具只是手段，思考才是核心。希望这些工具能帮你从繁琐的检索工作中解放出来，将更多的时间投入到真正的创新与思考中去。Happy Researching! 🚀
+**Conclusion:**
+Tools are just a means; thinking is the core. Hopefully, these tools can free you from tedious search work and let you devote more time to genuine innovation and critical thinking. Happy Researching! 🚀
